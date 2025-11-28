@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        project: "PURAVANKARA",
+        project: "ABHEE_PROPERTIES",
         name,
         email,
         phone: mobile,
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        project: "PURAVANKARA",
+        project: "ABHEE_PROPERTIES",
         name,
         email,
         phone: mobile,
@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        project: "PURAVANKARA",
+        project: "ABHEE_PROPERTIES",
         name,
         email,
         phone: mobile,
@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        project: projectName ?? "PURAVANKARA",
+        project: projectName ?? "ABHEE_PROPERTIES",
         name,
         email,
         phone: mobile,
