@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        project: projectName ?? "ABHEE_PROPERTIES",
+        project: projectName || "ABHEE_PROPERTIES",
         name,
         email,
         phone: mobile,
